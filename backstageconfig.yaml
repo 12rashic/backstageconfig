@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstageconfig
+  description: A service example
+  annotations:
+    github.com/project-slug: '12rashic/service-example'
+    backstage.io/kubernetes-id: 'kind-backstage'
+    argocd/app-name: 'test-app'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: backstage
