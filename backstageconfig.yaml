@@ -7,6 +7,7 @@ metadata:
     github.com/project-slug: '12rashic/service-example'
     backstage.io/kubernetes-id: 'kind-backstage'
     argocd/app-name: 'test-app'
+    qameta.io/allure-project: value
 spec:
   type: service
   lifecycle: experimental
